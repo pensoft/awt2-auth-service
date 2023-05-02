@@ -1,0 +1,59 @@
+#authentication {
+    background-image: url("../../public/images/auth-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#authentication .auth-header {
+    padding: 27px 42px 0 42px;
+}
+
+#authentication .main-content {
+    padding-left: 42px;
+    padding-right: 42px;
+}
+
+#authentication .auth-card {
+    width: 544px;
+    max-width: 100%;
+}
+
+#authentication .auth-card .auth-card-content {
+    padding: 40px;
+}
+
+
+#authentication .crossed-title {
+    position: relative;
+    margin-top: 44px;
+}
+
+#authentication .crossed-title:before {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-top: 1px solid #e3e3e3;
+}
+
+#authentication .crossed-title span {
+    display: inline-block;
+    position: relative;
+    padding: 0 6px;
+    background-color: #ffffff;
+}
+
+@media all and (min-width: 768px) {
+    #authentication .main-content {
+        padding-right: 125px;
+    }
+}
+
+@media all and (min-width: 992px) {
+    #authentication .main-content .register-card {
+        margin-top: -50px;
+    }
+}
